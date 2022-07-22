@@ -1,0 +1,25 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
+.container-filho{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  flex-wrap: wrap;
+}
+
+.imagem{
+  width: 50%;
+}
+
+.botao{
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}

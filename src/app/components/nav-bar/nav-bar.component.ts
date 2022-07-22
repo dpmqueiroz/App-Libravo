@@ -14,6 +14,6 @@ export class NavBarComponent implements OnInit {
   }
 
   redirecionaLogin(){
-    window.location.href = "http://localhost:4200/login"
+    window.location.href = "https://libravo.netlify.app/login"
   }
 }
